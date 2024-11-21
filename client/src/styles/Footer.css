@@ -1,10 +1,10 @@
-/* Footer.css */
-
+/* Footer.css
 .footer {
     background-color: #222;
-    color: #fff;
+    color: #222;
     padding: 2rem;
     text-align: center;
+    align-items: center;
   }
   
   .footer__social {
@@ -12,30 +12,33 @@
   }
   
   .footer__social a {
-    color: #fff;
+    color: #222;
     margin: 0 1rem;
     font-size: 1.5rem;
     transition: color 0.3s;
   }
   
   .footer__social a:hover {
-    color: #aaa;
+    color: #222;
   }
   
   .footer__links {
     list-style: none;
     padding: 0;
     margin: 1rem 0;
+    align-items: center;
   }
   
   .footer__links li {
     display: inline;
     margin: 0 1rem;
+    align-items: center;
   }
   
   .footer__links a {
-    color: #fff;
+    color: #222;
     text-decoration: none;
+    align-items: center;
   }
   
   .footer__break {
@@ -45,4 +48,36 @@
   
   .footer__copyright {
     font-size: 0.9rem;
+  }  */
+
+  .footer {
+    padding: 20px;
+    background-color: #f8f9fa; /* Light background color */
+    text-align: center; /* Center text in the footer */
+  }
+  
+  .footer__social {
+    margin-bottom: 20px; /* Space below social icons */
+  }
+  
+  .footer__social-icons {
+    display: flex; /* Use flexbox for alignment */
+    justify-content: center; /* Center the icons horizontally */
+    gap: 15px; /* Space between icons */
+  }
+  
+  .footer__links {
+    list-style: none; /* Remove bullet points */
+    padding: 0; /* Remove padding */
+    margin: 20px 0; /* Add margin above and below the links */
+    display: flex; /* Use flexbox for alignment */
+    justify-content: center; /* Center the links horizontally */
+  }
+  
+  .footer__links li {
+    margin: 0 10px; /* Space between links */
+  }
+  
+  .footer__copyright {
+    margin-top: 20px; /* Space above copyright text */
   }

@@ -1,4 +1,4 @@
-/* General Styles */
+/* General Styles
 body {
     font-family: Arial, sans-serif;
     background-color: #f0f4f8;
@@ -9,7 +9,7 @@ body {
     height: 100vh;
   }
   
-  /* Login Container */
+ 
   .login-container {
     background: #ffffff;
     padding: 20px 30px;
@@ -20,14 +20,14 @@ body {
     text-align: center;
   }
   
-  /* Heading */
+  
   .login-container h2 {
     margin-bottom: 20px;
     color: #333;
     font-size: 24px;
   }
   
-  /* Form Groups */
+ 
   .form-group {
     margin-bottom: 15px;
     text-align: left;
@@ -53,7 +53,7 @@ body {
     border-color: #4a90e2;
   }
   
-  /* Button */
+  
   .login-button {
     background-color: #4a90e2;
     color: #fff;
@@ -69,4 +69,4 @@ body {
   .login-button:hover {
     background-color: #357abd;
   }
-  
+   */
