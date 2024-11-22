@@ -43,6 +43,7 @@ const express = require('express');
 const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
 const cors = require('cors');
+
 require('dotenv').config();
 
 // Mongoose Connection
@@ -101,10 +102,12 @@ connectDb().then(async () => {
 // Import Routes
 const authRoutes = require('./routes/auth');
 const parkingRouter = require('./routes/parkingSpaces');
-
+const walletRoutes = require('./routes/wallet');
 // Routes
 app.use('/api/user', authRoutes);
 app.use('/api/parking', parkingRouter);
+// Use wallet routes
+app.use('/api/wallet', walletRoutes);
 
 // Start Server
 app.listen(port, () => {

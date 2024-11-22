@@ -6,7 +6,7 @@ const vehicleSchema = new mongoose.Schema({
         required: true, 
         unique: true 
     },
-    owner: { 
+    userName: { 
         type: String, 
         required: true 
     },
@@ -16,12 +16,12 @@ const vehicleSchema = new mongoose.Schema({
     },
     vehicleType: { 
         type: String, 
-        enum: ['Car', 'Bike', 'Truck','car','bike','truck'], 
+        enum: ['car','bike','truck','Car', 'Bike', 'Truck'], 
         required: true 
     },
     fuelType: { 
         type: String, 
-        enum: ['Petrol', 'Diesel', 'Electric', 'Hybrid', 'petrol', 'diesel', 'electric', 'hybrid'], 
+        enum: ['petrol', 'diesel', 'electric', 'hybrid'], 
         required: true 
     },
 });
